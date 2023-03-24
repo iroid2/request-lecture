@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+}
+body header {
+  width: 100%;
+  padding: 2rem;
+  background-color: black;
+  display: flex;
+}
+body header .left-header {
+  background-color: green;
+  font-size: 2rem;
+}
+body header .mid-header {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+body header .right-header {
+  color: white;
+  font-size: 2rem;
+}
+body header .right-header button {
+  padding: 0.5rem 2rem;
+}
+body .hero {
+  width: 100vw;
+  height: 90vh;
+  background-color: blue;
+  font-size: 4rem;
+}
+body .main {
+  width: 100vw;
+  height: 90vh;
+  background-color: rgba(242, 9, 215, 0.432);
+  font-size: 4rem;
+}
+body .footer {
+  width: 100%;
+  height: 20vh;
+  background-color: teal;
+  color: white;
+}
+body .footer .left-footer {
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+body .footer .left-footer a {
+  color: white;
+}
+body .footer .mid-footer {
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+body .footer .mid-footer a {
+  color: white;
+}
+body .footer .left-footer {
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  flex-wrap: wrap;
+}
+body .footer .left-footer input {
+  height: 5px;
+  width: 10px;
+}/*# sourceMappingURL=prog.css.map */
